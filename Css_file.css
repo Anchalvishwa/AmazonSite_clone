@@ -1,0 +1,1016 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: rgb(4, 17, 30);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo{
+    padding-top: 2px;
+    height: 50px;
+    width: 128.73px;
+    
+}
+.logo{
+    background-image: url(images/amazon\ logo.png);
+    height: 50px;
+    width: 128.73px;
+    background-size: cover;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.add1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add2{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+.searchbar{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    margin: 10px;
+    justify-content: space-evenly;
+    border: none;
+}
+.searchbar:hover{
+    border: 2px solid orange;
+}
+.OPTION{
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    background-color: #E6E6E6;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.OPTION:hover{
+    background-color: #E6E6E6E6;
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #0f1111;
+}
+.flag{
+    height: 50px;
+    width: 73.38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.EN{
+    height: 15px;
+    width: 54px;
+    background-color: #0f1111;
+    color: white;
+    border: none;
+    
+    padding: 1px;
+}
+/* box 5 */
+
+span{
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav-second{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* box 6 */
+
+.cart-icon i{
+    
+    font-size: 30px;
+}
+.cart-icon{
+    font-size: small;
+    font-weight: 700;
+    width: 84px;
+    height: 50px;
+    padding-top: 7.5px;
+ 
+}
+
+/* grey pannel */
+
+.grey-pannel{
+    height: 39px;
+    background-color: rgb(32, 49, 70)
+
+}
+.grey-pannel{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.pannel-menu{
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 58.42px;
+    height: 39px;
+    padding-left: 8px;
+    padding-right: 9px;
+}
+.all{
+    padding-left: 4px;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-right: 9px;
+}
+.pannel-ops1{
+    width: 101.81px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 100px;
+    margin: 4px;
+    padding-left: 4px;
+    text-align: center;
+    
+}
+.pannel-ops2{
+    width: 128.34px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 100px;
+    margin: 4px;
+    padding-left: 4px;
+    text-align: center;
+}
+.pannel-ops3{
+    width: 69.8px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 100px;
+    margin: 4px;
+    padding-left: 4px;
+    text-align: center;
+    
+}
+.pannel-ops4{
+    width: 81px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 100px;
+    margin: 4px;
+    padding-left: 4px;
+    text-align: center;
+}
+.pannel-ops5{
+    width: 41.38px;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 100px;
+    margin: 4px;
+    padding-left: 4px;
+    text-align: center;
+}
+/* hero section */
+.hero-section{
+    height: 350px;
+    background-size: cover;
+    background-image: url(images/amazon\ background\ image.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-tag-line{
+    font-size: 14px;
+    height: 40px;
+    width: 96%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+}
+.hero-tag-line a{
+    color: #007185;
+    padding-left: 4PX;
+    text-decoration: none;
+}
+
+/* shop section */
+.box{
+    height: 100px;
+    width: 310px;
+    height: 420px;
+    background-color: white;
+    margin-top: 15px;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 221, 190);
+    margin-bottom: 20px;
+    
+}
+.box1-text{
+    text-align:left;
+    height: 23.3px;
+    width: 277.67px;
+    padding: 20px;
+    margin: 5px;
+    font-size: 15px;
+    /* font-weight: 200; */
+    font-family:Verdana;
+    
+}
+.box2-text{
+    text-align:left;
+    height: 23.3px;
+    width: 277.67px;
+    padding: 20px;
+    margin: 5px;
+    font-size: 15px;
+    /* font-weight: 200;  */
+    font-family:Verdana;
+}
+.box3-text{
+    text-align:left;
+    height: 23.3px;
+    width: 277.67px;
+    padding: 20px;
+    margin: 5px;
+    font-size: 15px;
+    /* font-weight: 200; */ 
+    font-family:Verdana;
+}
+.box4-text{
+    text-align:left;
+    height: 23.3px;
+    width: 277.67px;
+    padding: 20px;
+    margin: 5px;
+    font-size: 15px;
+    /* font-weight: 100;  */
+    font-family:Verdana;
+}
+
+/* box1-divs-editting */
+.box1-img-section1{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-items:center;
+    height: 140px;
+    width: 265.33px;
+    margin-top: 10px;
+    align-content: space-between;
+    justify-content: center;
+    
+    
+}
+.box1-img-section2{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-items:center;
+    height: 140px;
+    width: 265.33px;
+    margin-top: 10px;
+    align-content: space-between;
+}
+
+/* box2 divs editting */
+.box3-img-section1{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-items:center;
+    height: 140px;
+    width: 265.33px;
+    margin-top: 20px;
+    align-content: space-between;
+    justify-content: center;
+    
+    
+}
+.box4-img-section2{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-items:center;
+    height: 140px;
+    width: 265.33px;
+    margin-top: 25px;
+    align-content: space-between;
+}
+
+
+/* box1 images */
+
+.img1{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/cleaning.jpg);
+    background-position:center;
+    background-size: cover;
+    margin: 10px;
+}
+.img1-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img2{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/almirah.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img2-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img3{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/home\ decor.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img3-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img4{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/bedding.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img4-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hometab{
+    margin-top: 20px;
+}
+/* box2 images */
+
+.img5{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/headshot.jpg);
+    background-position:center;
+    background-size: cover;
+    margin: 10px;
+}
+.img5-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img6{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/keyboard.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img6-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img7{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/mouse.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img7-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img8{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/chair.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img8-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hometab{
+    margin-top: 20px;
+}
+
+/* box3 divs editting */
+
+.box5-img-section1{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-items:center;
+    height: 140px;
+    width: 265.33px;
+    margin-top: 20px;
+    align-content: space-between;
+    justify-content: center;
+    
+    
+}
+.box6-img-section2{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-items:center;
+    height: 140px;
+    width: 265.33px;
+    margin-top: 25px;
+    align-content: space-between;
+}
+/* box3 images*/
+.img9{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/jeans.jpg);
+    background-position:center;
+    background-size: cover;
+    margin: 10px;
+}
+.img9-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img10{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/t\ shirts.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img10-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img11{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/kurti.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img11-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img12{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/shoes.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img12-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hometab{
+    margin-top: 20px;
+}
+
+/* box4 divs editting */
+
+.box7-img-section1{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-items:center;
+    height: 140px;
+    width: 265.33px;
+    margin-top: 20px;
+    align-content: space-between;
+    justify-content: center;
+    
+    
+}
+.box8-img-section2{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-items:center;
+    height: 140px;
+    width: 265.33px;
+    margin-top: 4px;
+    align-content: space-between;
+}
+
+/* box4 images */
+
+.img13{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/dinning\ pot.jpg);
+    background-position:center;
+    background-size: cover;
+    margin: 10px;
+}
+.img13-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img14{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/home\ improvement.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img14-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img15{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/decor.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img15-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img16{
+    height: 110px;
+    width: 130px;
+    background-image: url(images/bath.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img16-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hometab{
+    margin-top: 15px;
+}
+/* box5 divs editting */
+
+.box9-img-section1{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-items:center;
+    height: 150.41px;
+    width: 300.78px;
+    margin-top: 5px;
+    margin-left: 5px;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.box10-img-section2{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-items:center;
+    height: 130px;
+    width: 300.33px;
+    margin-top: 40px;
+    align-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* box5 h2 */
+.box5 h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* box6 h2 */
+.box6 h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* box7 h2 */
+.box7 h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* box8 h2 */
+.box8 h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* box5 images */
+.img17{
+    height: 160.41px;
+    width:370.78px;
+    background-image: url(images/cooker.jpg);
+    background-position:center;
+    background-size: cover;
+    margin: 10px;
+}
+.img17-text{
+    margin-top: 162px;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img18{
+    height: 100px;
+    width: 130px;
+    background-image: url(images/coffee.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+    
+}
+.img18-text{
+    margin-top: 100px;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img19{
+    height: 100px;
+    width: 130px;
+    background-image: url(images/pots.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img19-text{
+    margin-top: 100px;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 95px;
+}
+.img20{
+    height: 100px;
+    width: 130px;
+    background-image: url(images/kettles.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img20-text{
+    margin-top: 100px;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hometab-5{
+    margin-top: 5px;
+    font-size: 13px;
+    margin-left: 20px;
+}
+/* box6 divs editting */
+
+
+.box11-img-section1{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-items:center;
+    height: 140px;
+    width: 300.33px;
+    margin-top: 20px;
+    align-content: space-between;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.box12-img-section2{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-items:center;
+    height: 140px;
+    width: 300.33px;
+    margin-top: 25px;
+    align-content: space-between;
+    margin-left: 5px;
+}
+/* box6 images */
+
+.img21{
+    height: 130px;
+    width: 130px;
+    background-image: url(images/dinning\ pot.jpg);
+    background-position:center;
+    background-size: cover;
+    margin: 10px;
+}
+.img21-text{
+    margin-top: 132px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img22{
+    height: 130px;
+    width: 130px;
+    background-image: url(images/clothes.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img22-text{
+    margin-top: 132px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img23{
+    height: 130px;
+    width: 130px;
+    background-image: url(images/kitchen.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img23-text{
+    margin-top: 132px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.img24{
+    height: 130px;
+    width: 130px;
+    background-image: url(images/health\ and\ beauty.jpg);
+    margin: 10px;
+    background-position:center;
+    background-size: cover;
+}
+.img24-text{
+    margin-top: 132px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hometab-6{
+    margin-top: 33px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+/* box7 divs editting */
+
+.box13-img-section1{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-items:center;
+    height: 155px;
+    width: 288.33px;
+    margin-top: 20px;
+    align-content: space-between;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+/* box7 images */
+
+.img25{
+    height: 330px;
+    width: 280px;
+    background-image: url(images/speaker.jpg);
+    background-position:center;
+    background-size: cover;
+    margin: 0px;
+    padding-left: 20px;
+    
+}
+.img25-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hometab-7{
+    margin-top: 185px;
+    font-size: 13px;
+    margin-left: 25px;
+}
+
+/* box8 divs editting */
+
+.box15-img-section1{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-items:center;
+    height: 140px;
+    width: 295.33px;
+    margin-top: 10px;
+    align-content: space-between;
+    justify-content: center;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+/* box8 images */
+
+.img29{
+    height: 330px;
+    width: 300.33px;
+    background-image: url(images/treat\ yourself.jpg);
+    background-position:center;
+    background-size: cover;
+    margin: 10px;
+}
+.img29-text{
+    margin-top: 110px;
+    font-size: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hometab-8{
+    margin-top: 210px;
+    font-size: 13px;
+    margin-left: 25px;
+}
+
+/* Footer pannel's editting */
+footer{
+    margin-top: 15px;
+}
+.foot-pannel-1{
+    height: 49px;
+    font-size: 13px;
+    background-color: #374758;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200px;
+}
+
+.foot-pannel-2{
+    background-color: #222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 400px;
+}
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: #dddddddd;
+}
+ul{
+    margin-top: 40px;
+}
+.foot-pannel-3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.01rex solid white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.pannel-logo{
+    background-image: url(images/amazon\ logo.png);
+    height: 35px;
+    width: 100px;
+    background-size: cover;
+    margin-right: 90px;
+    
+}
+
+.foot-pannel-5{
+    
+    background-color:rgb(4, 17, 30);
+    color: white;
+   
+    height: 77px;
+}
+.pages{
+    height: 19px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 40px;
+    
+}
+.pages a{
+    margin-top: 10px;
+}
+.copyright{
+    height: 18px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.foot-pannel-4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(4, 17, 30);
+    color: white;
+    font-size: 12px;
+}
+.foot-pannel-4 ul a{
+    padding: -30px;
+    font-size: 11px;
+}
+
+.language-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    width: 116.95px;
+    border: 1px solid grey;
+    color: rgb(225, 224, 224);
+    /* margin-left: 50px; */
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.language-box i{
+    padding-right: 10px;
+}
+.usd-dollar{
+    height: 35px;
+    width: 150.59px;
+    border: 1px solid grey;
+    color: r#cccccc;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 10px;
+    /* margin-right: 60px; */
+    border-radius: 3px;
+}
+.u-s{
+    height: 34px;
+    width: 141.38px;
+    border: 1px solid grey;
+    color: rgb(225, 224, 224);
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 3px;
+    margin-right: 40px;
+    margin-left: 10px;
+    color: #cccccc;
+}
